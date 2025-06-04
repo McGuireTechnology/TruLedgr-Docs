@@ -1,4 +1,5 @@
 site_name: TruLedgr Docs
+site_url: https://docs.truledgr.app
 theme:
   name: material
   palette:
