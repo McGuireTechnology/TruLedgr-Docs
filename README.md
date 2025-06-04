@@ -1,5 +1,7 @@
 # TruLedgr-Docs
 
+> **Live Documentation:** [https://docs.truledgr.app](https://docs.truledgr.app)
+
 TruLedgr-Docs is the documentation repository for the TruLedgr project. It contains all the guides, API references, and setup instructions for users and developers working with TruLedgr. The documentation is built using MkDocs and is intended to provide clear, accessible, and up-to-date information about the TruLedgr ecosystem.
 
 
@@ -62,3 +64,15 @@ mkdocs build
 ```
 
 This will create a `site/` directory containing the static HTML files for your documentation, which you can deploy to any web server or GitHub Pages.
+
+## Deployment with GitHub Actions
+
+The documentation is automatically deployed to [https://docs.truledgr.app](https://docs.truledgr.app) using GitHub Actions and GitHub Pages.
+
+### How it works
+
+- On every push to the `main` branch, a GitHub Actions workflow builds the documentation using MkDocs.
+- The generated static site is deployed to the `gh-pages` branch and published via GitHub Pages.
+- The live documentation is available at: [https://docs.truledgr.app](https://docs.truledgr.app)
+
+No manual deployment steps are required—just push your changes to `main` and they will be published automatically.
